@@ -11,6 +11,10 @@
   "author": "Layer",
   "license": "Apache-2.0",
   "repository": "layerhq/layer-react",
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^16.0.0-alpha.12"
+  },
   "devDependencies": {
     "babel-cli": "^6.9.0",
     "babel-eslint": "^6.0.4",

@@ -5,8 +5,8 @@
  * and adds `typing` and `paused` properties to the Wrapped Component
  * allowing for the component to render a typing indicator.
  */
-import React, { Component, PropTypes } from 'react';
-
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 /**
  * Exports a function that takes as input a Component to wrap and returns a new Component.
  * The new Component takes as input a client and conversationId, and adds `typing` and `paused`
